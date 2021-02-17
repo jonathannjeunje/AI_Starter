@@ -1,0 +1,52 @@
+[
+    {
+        "inputs_list": [
+            [0,0,0],
+            [1,0,0],
+            [0,1,0],
+            [1,1,0],
+            [0,0,1],
+            [1,0,1],
+            [0,1,1],
+            [1,1,1]
+        ],
+        "target_outputs_list": [
+            [0],
+            [1],
+            [1],
+            [0],
+            [0],
+            [1],
+            [1],
+            [0]],
+        "upper_margin": 0.9,
+        "lower_margin": 0.1,
+        "learning_coef": 0.5,
+        "weights_to_hidden_units": [
+            [0.2, 0.3, 0.4],
+            [0.5, 0.6, 0.7]
+        ],
+        "weights_to_output_units": [
+            [0.8, 0.9]
+        ]
+    },{
+        "inputs_list": [
+            [1,0]
+        ],
+        "target_outputs_list": [
+            [1,0]
+        ],
+        "upper_margin": 0.9,
+        "lower_margin": 0.1,
+        "learning_coef": 0.5,
+        "weights_to_hidden_units": [
+            [0.2, 0.5],
+            [0.3, 0.6],
+            [0.4, 0.7]
+        ],
+        "weights_to_output_units": [
+            [0.8, 0.9, 0.1],
+            [0.25, 0.35, 0.15]
+        ]
+    }
+]
